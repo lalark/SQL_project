@@ -2,7 +2,7 @@
 
 This is my project to showcase my SQL skills. I used an Air BnB dataset that was found on Kaggle: https://www.kaggle.com/airbnb/seattle. 
 
-I had to alter this dataset slightly in order to upload it, including: 
+I had to alter this dataset slightly in order to load it into SQL, including: 
 1. Modified  the listings.csv file to relace "" with nothing for NULLs; 
 2. Fixed one line where there was a carriage return that split a number value. There are lines where there is a carriage return in the some of the text values but that seems to not cause a problem for the create and load script so I left those. It means there will be carriage returns in the values of some of the columns in the listings table in your database but presumably that will not cause a problem.
 
